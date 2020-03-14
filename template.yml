@@ -7,7 +7,7 @@ Resources:
         FunctionName: VotaNet
         Handler: lambda_function.lambda_handler
         Runtime: python3.7
-        MemorySize: 256
+        MemorySize: 300
         Timeout: 300
         Role: !GetAtt LambdaRole.Arn
         Environment:
